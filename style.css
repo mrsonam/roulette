@@ -302,3 +302,26 @@ h1 {
   margin-bottom: 10px;
   align-self: flex-start;
 }
+
+@media only screen and (max-width: 600px) {
+    .inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #wrapper {
+      width: 50%;
+      margin: 0 auto;
+    }
+    .legend{
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+    }
+    .ily{
+        margin-top: 70%;
+    }
+    hr{
+        display: none;
+    }
+  }
